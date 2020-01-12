@@ -2,7 +2,7 @@ gunicorn==19.9.0
 requests==2.20.0
 flask
 pandas
-bokeh
+bokeh==0.12.10
 dill
 jinja2
 pip
