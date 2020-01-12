@@ -1,3 +1,10 @@
 gunicorn==19.9.0
 requests==2.20.0
 flask
+pandas
+bokeh
+dill
+jinja2
+pip
+simplejson
+numpy

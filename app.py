@@ -1,10 +1,10 @@
 from flask import Flask, render_template, request, redirect
 import numpy as np
-import quandl
+#import quandl
 import requests
 
 from pandas import DataFrame, Series, to_datetime
-import datetime as dt
+#import datetime as dt
 from bokeh.plotting import figure
 from bokeh.embed import components
 from bokeh.models.annotations import Title
@@ -14,17 +14,17 @@ from bokeh.models import ColumnDataSource, DatetimeTickFormatter
 
 key = "wFQ1oxYtmjs-EFN68gCn"
 
-def get_quandl_py(days):
-    
-    # Use Quandl python interface
-    
-    quandl.ApiConfig.api_key = key
-    data = quandl.get("EIA/PET_RWTC_D", rows = days)
-    data.reset_index(inplace = True)
-    x = data.Date
-    y = data.Value
-
-    return x, y
+#def get_quandl_py(days):
+#    
+#    # Use Quandl python interface
+#    
+#    quandl.ApiConfig.api_key = key
+#    data = quandl.get("EIA/PET_RWTC_D", rows = days)
+#    data.reset_index(inplace = True)
+#    x = data.Date
+#    y = data.Value
+#
+#    return x, y
 
 
 
