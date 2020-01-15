@@ -2,7 +2,7 @@
 
 This is a TDI project is intended to help you tie together some important concepts and
 technologies from the 12-day course, including Git, Flask, JSON, Pandas, Requests, Heroku, and Bokeh for visualization. The provided repository contains a basic template for a Flask configuration that will
-work on Heroku. The instructions in the original READM.md (and the linked tutorials) left out a lot of details as well as corner cases in building and deploying the app. Thus this note summarizes the issues that I encountered and the tricks that address them.
+work on Heroku. The instructions in the original README.md (and the linked tutorials) left out a lot of details as well as corner cases in building and deploying the app. Thus this note summarizes the issues that I encountered and the tricks that address them.
 
 
 
